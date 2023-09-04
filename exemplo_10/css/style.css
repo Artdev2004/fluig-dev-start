@@ -1,0 +1,54 @@
+#container{
+    width: 990px;
+    margin: 10px auto;
+    
+}
+#menu, a{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+#menu, a:hover{
+    font-size: 25px;
+    transition: 1s ease;
+}
+
+#principal{
+    display: flex;
+    padding: 10px;
+    width: 700px;
+    justify-content: space-between;
+    background: transparent;
+    font: 20px Verdana;
+}
+#textoLorem{
+    display: flex;
+    flex-direction: column;
+    
+}
+#apoio{
+    display: flex;
+    width: 270px;
+    padding-left: 70px;
+    box-sizing: border-box;
+
+     
+}
+#apoio img{
+    padding: 10px;
+    width: 250px;
+    height: 170px;
+    
+}
+
+#rodape{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background: transparent;
+    height: 30px;
+
+}
